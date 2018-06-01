@@ -20,7 +20,7 @@ if ( class_exists( '\Walker_Nav_Menu' ) ) {
 		 */
 		public function start_lvl( &$output, $depth = 0, $args = array() ) {
 			$indent = str_repeat( "\t", $depth );
-			$output .= "\n$indent<div class=\"vertical menu\">\n";
+			$output .= "\n$indent<ul class=\"vertical menu\">\n";
 		}
 	}
 }

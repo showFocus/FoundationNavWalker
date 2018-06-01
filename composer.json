@@ -1,7 +1,6 @@
 {
   "name": "showfocus/foundation-nav-walker",
   "description": "A walker for Foundation 6.4",
-  "type": "library",
   "license": "MIT",
   "authors": [
     {
